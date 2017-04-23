@@ -1,7 +1,7 @@
 # Read Me #
 
 # Project Detail #
-this project included with 6 endpoint according postman collection:
+this project included with 6 endpoint according to postman collection:
  ```
     ScheduleRESTful.postman_collection.json
   ```
