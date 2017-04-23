@@ -1,0 +1,110 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ScheduleRESTful",
+		"_postman_id": "8a0b37bd-e273-50b0-d3f5-e17b92e60848",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Todo",
+			"description": "",
+			"item": [
+				{
+					"name": "Get TodoList",
+					"request": {
+						"url": "http://localhost:8090/v1/schedule/todo",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get a single task",
+					"request": {
+						"url": "http://localhost:8090/v1/schedule/todo/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "add Todo task",
+					"request": {
+						"url": "http://localhost:8090/v1/schedule/todo",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subject\":\"Qwerty\",\n    \"detail\":\"Test\",\n    \"status\": \"false\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "update Todo task",
+					"request": {
+						"url": "http://localhost:8090/v1/schedule/todo",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"1\",\n    \"subject\":\"Qwerty\",\n    \"detail\":\"Test\",\n    \"status\": \"false\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "update Todo Status",
+					"request": {
+						"url": "http://localhost:8090/v1/schedule/todo/status",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"1\",\n    \"status\": \"true\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a single task",
+					"request": {
+						"url": "http://localhost:8090/v1/schedule/todo/1",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
