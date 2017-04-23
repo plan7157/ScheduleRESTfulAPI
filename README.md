@@ -1,6 +1,22 @@
 # Read Me #
 
 # Project Detail #
+this project included with 6 endpoint according postman collection:
+ ```
+    ScheduleRESTful.postman_collection.json
+  ```
+1.Get TodoList : the endpoint use to get all item in the list
+
+2.Get a single task : the endpoint use to get a single task in the list
+
+3.add Todo task : the endpoint use to add task to list
+
+4.update Todo task : the endpoint use to edit existing task
+
+5.update Todo Status : the endpoint use to set task status
+
+6.Delete a single task : the endpoint use to delete a task from the list
+
 ## Technologies And Tool ##
  - Java 1.8
  - IntelliJ
@@ -9,6 +25,7 @@
  - flyway
  - lombok
  - Mysql
+ - H2 Database
  
 # Windows #
 ## Environment Setup ##
