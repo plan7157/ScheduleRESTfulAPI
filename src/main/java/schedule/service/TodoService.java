@@ -3,7 +3,7 @@ package schedule.service;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import schedule.model.Response.ResponseModel;
+import schedule.model.response.ResponseModel;
 import schedule.model.Todo;
 import schedule.model.exception.BusinessException;
 import schedule.repository.TodoRepository;

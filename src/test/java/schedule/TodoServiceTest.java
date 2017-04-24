@@ -9,14 +9,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-import schedule.model.Response.ResponseModel;
-import schedule.model.Response.Status;
+import schedule.model.response.ResponseModel;
+import schedule.model.response.Status;
 import schedule.model.Todo;
 import schedule.model.exception.BusinessException;
 import schedule.repository.TodoRepository;
 import schedule.service.TodoService;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -24,7 +23,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.when;
-import static schedule.component.Constants.ERROR_GENERIC_MESSAGE;
 import static schedule.component.Constants.STATUS_SUCCESS;
 
 /**

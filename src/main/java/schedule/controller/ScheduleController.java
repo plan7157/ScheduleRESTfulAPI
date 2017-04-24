@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import schedule.model.Response.ResponseModel;
+import schedule.model.response.ResponseModel;
 import schedule.model.Todo;
 import schedule.model.exception.BusinessException;
 import schedule.repository.TodoRepository;

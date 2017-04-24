@@ -1,4 +1,4 @@
-package schedule.model.Response;
+package schedule.model.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

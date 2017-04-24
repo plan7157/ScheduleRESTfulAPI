@@ -19,7 +19,7 @@ public class Interceptor extends HandlerInterceptorAdapter {
      * this class is will be work before controller
      *
      * @param httpServletRequest  this is Request from user
-     * @param httpServletResponse this is Response to user
+     * @param httpServletResponse this is response to user
      * @param o                   this is http Body
      * @return true always
      * @throws Exception use for error catching

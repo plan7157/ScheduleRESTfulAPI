@@ -1,4 +1,4 @@
-package schedule.model.Response;
+package schedule.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

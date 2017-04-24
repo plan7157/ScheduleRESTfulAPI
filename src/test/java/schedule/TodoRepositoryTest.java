@@ -9,8 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-import schedule.model.Response.ResponseModel;
-import schedule.model.Response.Status;
+import schedule.model.response.Status;
 import schedule.model.Todo;
 import schedule.model.exception.BusinessException;
 import schedule.repository.TodoRepository;
@@ -20,9 +19,7 @@ import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.IsNot.not;
-import static org.junit.Assert.*;
 import static schedule.component.Constants.ERROR_GENERIC_MESSAGE;
-import static schedule.component.Constants.STATUS_SUCCESS;
 
 /**
  * Created by natapon on 24-Apr-17.

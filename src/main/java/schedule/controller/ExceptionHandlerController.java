@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import schedule.model.Response.ResponseModel;
+import schedule.model.response.ResponseModel;
 import schedule.model.exception.BusinessException;
 
 import static schedule.component.Constants.ERROR_GENERIC_MESSAGE;
